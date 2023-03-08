@@ -1,0 +1,43 @@
+doctype html 
+html 
+    head 
+        style 
+            include ../static/style.css 
+
+    body 
+        nav 
+            ul 
+                li #[a(href="/") Home]
+                li #[a(href="/services") Our Services]
+                li #[a(href="/about") About Us]
+                li #[a(href="/contact") Contact Us]
+
+        section#intro 
+            div WELCOME TO SWAY
+            div#live  Live | Love | Dance
+            
+        section#mission
+            div.mheading Our Mission
+            div.cards
+                div.card
+                    p Mission1
+                    p.para Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, possimus obcaecati! Ducimus necessitatibus nihil commodi non, harum architecto voluptatem sequi, debitis quos culpa temporibus assumenda 
+                div.card
+                    p Mission2
+                    p.para Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, possimus obcaecati! Ducimus necessitatibus nihil commodi non, harum architecto voluptatem sequi, debitis quos culpa temporibus assumenda 
+                div.card
+                    p Mission3
+                    p.para Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, possimus obcaecati! Ducimus necessitatibus nihil commodi non, harum architecto voluptatem sequi, debitis quos culpa temporibus assumenda 
+
+        section#sponsor
+            div Our Sponsors 
+            div.sponsorImages
+                img(src="../static/logo.png", alt="")
+                img(src="../static/logo.png", alt="")
+                img(src="../static/logo.png", alt="")
+                
+        footer  
+            | Copyright 2022 sway.com
+            
+        script 
+            include ../static/script.js 

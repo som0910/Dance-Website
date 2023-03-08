@@ -1,0 +1,108 @@
+doctype html 
+html 
+    head 
+        style 
+            include ../static/style.css
+            include ../static/services.css 
+            //- link(rel='stylesheet' href='../static/services.css')
+        style.
+            @media only screen and (max-width: 1112px) {
+                #services{
+                    display:flex;
+                    flex-direction:column;
+                    align-items:center;
+                }
+                .box{
+                    width:70vw;
+                }
+                .box p{
+                    margin-left:40px;
+                    margin-right:40px;
+                    margin-bottom:20px;
+                    font-size:1.4rem;
+                }
+                #services .box img{
+                    height: 350px;
+                    display: block;
+                    margin: auto;
+                    margin-top:25px;
+                }
+                h2{
+                    margin-top:20px;
+                    margin-bottom:10px;
+                    font-size:2.5rem;
+                }
+            }
+                
+    body 
+        nav 
+            ul 
+                li #[a(href="/") Home]
+                li #[a(href="/services") Our Services]
+                li #[a(href="/about") About Us]
+                li #[a(href="/contact") Contact Us]
+
+
+        section#services_container1
+            div#services
+                div.box 
+                    //- <!-- we want 3 boxes; so better to use class instead of id -->
+                    img(src="../static/hip.jpg", alt="")
+                    h2.secondary-heading Hip-Hop
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio magnam dolor ipsam eaque officiis vero!
+
+                div.box 
+                    //- <!-- we want 3 boxes; so better to use class instead of id -->
+                    img(src="../static/contemporary.jpg", alt="")
+                    h2.secondary-heading Contemporary 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio magnam dolor ipsam eaque officiis vero!
+            
+                div.box 
+                    //- <!-- we want 3 boxes; so better to use class instead of id -->
+                    img(src="../static/ballet.jpg", alt="")
+                    h2.secondary-heading Ballet
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio magnam dolor ipsam eaque officiis vero!
+        
+        section#services_container2
+            div#services
+                div.box 
+                    //- <!-- we want 3 boxes; so better to use class instead of id -->
+                    img(src="../static/bharat.jpg", alt="")
+                    h2.secondary-heading Bharatnatyam
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio magnam dolor ipsam eaque officiis vero!
+
+                div.box 
+                    //- <!-- we want 3 boxes; so better to use class instead of id -->
+                    img(src="../static/folk.jpeg", alt="")
+                    h2.secondary-heading Folk
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio magnam dolor ipsam eaque officiis vero!
+            
+                div.box 
+                    //- <!-- we want 3 boxes; so better to use class instead of id -->
+                    img(src="../static/kathak.jpg", alt="")
+                    h2.secondary-heading Kathak
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio magnam dolor ipsam eaque officiis vero!
+
+        section#services_container3
+            div#services
+                div.box 
+                    //- <!-- we want 3 boxes; so better to use class instead of id -->
+                    img(src="../static/zumba.jpg", alt="")
+                    h2.secondary-heading Zumba 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio magnam dolor ipsam eaque officiis vero!
+
+                div.box 
+                    //- <!-- we want 3 boxes; so better to use class instead of id -->
+                    img(src="../static/salsa.jpg", alt="")
+                    h2.secondary-heading Salsa
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio magnam dolor ipsam eaque officiis vero!
+            
+                div.box 
+                    //- <!-- we want 3 boxes; so better to use class instead of id -->
+                    img(src="../static/kathakali.jpg", alt="")
+                    h2.secondary-heading Kathakali
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio magnam dolor ipsam eaque officiis vero!
+
+        footer  
+            | Copyright 2022 sway.com
+            

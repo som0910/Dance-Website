@@ -1,0 +1,32 @@
+section {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: black;
+}
+
+img {
+
+    height: 80vh;
+    /* width: 50vw; */
+}
+
+.writing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: #ad2f35;
+}
+
+p {
+    font-size: 1.5rem;
+    color: white;
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+}
+
+
+#services{
+    display: flex;
+    margin: -14px 30px;
+}
+
+#services .box{
+    border-radius: 20px;
+    background-color: #faebd7;
+    /* background-color: #fbf1e4; */
+    /* background-color: white; */
+    margin: 30px;
+    padding: 20px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    
+}
+
+#services .box:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+#services .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+
+#services .box p{
+    text-align: center;
+}
+
+#services_container1{
+    margin-top: 20px;
+}
+#services_container3{
+    margin-bottom: 30px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 5px;
+}
+
+body{
+    background-color: black;
+    
+}
